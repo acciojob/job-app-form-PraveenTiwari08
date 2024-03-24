@@ -8,6 +8,46 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="post">
+		<label for="name" >Name</label>
+		<input type="text" required id="name">
+		<br>
+		<br>
+		<label for="email" >Email</label>
+		<input type="email" required id="email">
+		<br>
+		<br>
+		<div>
+			<span>Gender</span>
+			<label> <input type="radio" name="gender" required>Male</label>
+			<label> <input type="radio" name="gender" required>Female</label>
+		</div>
+		<div>
+			<label for="laptop">Laptop Brands</label>
+			<select id="laptop">
+				<option>Apple</option>
+				<option>Asus</option>
+				<option>HP</option>
+			</select>
+		</div>
+		<label for="age" >Age</label>
+		<input type="number" required id="age">
+		<br>
+		<br>
+		<label for="dob" >Date of Birth</label>
+		<input type="date" required id="dob">
+		<br>
+		<br>
+		<label for="password" >Password</label>
+		<input type="password" required id="password">
+		<br>
+		<br>
+		<label for="portfolio" >Portfolio URL</label>
+		<input type="url" id="portfolio">
+		<br>
+		<br>
+		<button type="button">Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
